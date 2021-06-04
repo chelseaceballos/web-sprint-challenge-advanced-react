@@ -10,9 +10,9 @@ export default class PlantList extends Component {
 
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
 state = {
-  plants: [],
+  plants: [], // initializing as an array of objects, each obj being the name, details, sName etc.
 }
-
+// image of 1st plant, "Peperomia Rosso" does not render 🤷🏻‍♀️
   componentDidMount() {
     axios.get('http://localhost:3333/plants')
       .then(res => {
