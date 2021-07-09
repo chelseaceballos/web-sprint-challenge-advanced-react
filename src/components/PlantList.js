@@ -8,8 +8,6 @@ export default class PlantList extends Component {
   //   - fetch data from the server endpoint - http://localhost:3333/plants
   //   - set the returned plants array to this.state.plants
 
-  /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
-
   state = {
     plants: [],
   }
@@ -25,7 +23,7 @@ export default class PlantList extends Component {
       console.log(err);
     })
   }
-
+/*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
   render() {
     return (
       <main className="plant-list">
